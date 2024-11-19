@@ -1,7 +1,12 @@
 import React from "react";
 import propTypes from "prop-types";
 import "./score.css";
-import { PieChart, Pie, ResponsiveContainer } from "recharts";
+
+import {
+	PieChart,
+	Pie,
+	ResponsiveContainer
+} from "recharts";
 
 function Score({ scoreData }) {
 	const scoreAngle = 225 - Math.round(scoreData * 360);

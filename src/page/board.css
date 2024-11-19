@@ -1,8 +1,3 @@
-.main {
-	display: flex;
-	height: auto;
-}
-
 .UserContainer {
 	display: flex;
 	flex-direction: column;

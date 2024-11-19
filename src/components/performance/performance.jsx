@@ -1,7 +1,14 @@
 import React from "react";
 import propTypes from "prop-types";
 import "./performance.css";
-import { RadarChart, PolarAngleAxis, Radar, PolarGrid, ResponsiveContainer } from "recharts";
+
+import { 
+	RadarChart,
+	PolarAngleAxis,
+	Radar,
+	PolarGrid,
+	ResponsiveContainer
+} from "recharts";
 
 function Performance({ performanceData }) {
 	const formatXAxis = (tickItem) => {
