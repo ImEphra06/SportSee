@@ -1,6 +1,7 @@
 import React from "react";
 import useFetchData from "../utils/hook";
 import { useParams } from "react-router-dom";
+import './board.css';
 
 import Title from "../components/title/title";
 import Nutrition from "../components/nutrition/nutrition";

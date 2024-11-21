@@ -4,8 +4,9 @@
 	justify-content: space-between;
 	width: 100%;
 	padding: 2rem 5rem;
-	@media screen and (max-width: 1370px) {
-		padding: 2rem 2rem;
+	
+	@media screen and (max-width: 1270px) {
+		margin-bottom: 0px;
 	}
 }
 
