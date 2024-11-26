@@ -4,7 +4,6 @@
 	align-items: flex-start;
 	flex-direction: column;
 	width: 90%;
-	height: 18vh;
 }
 
 .titleContainer h1 {
@@ -22,7 +21,7 @@
 	color: black;
 }
 
-.iconClap {
+.Clap {
 	width: 24px;
 	height: auto;
 }

@@ -2,12 +2,10 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 100%;
-	padding: 2rem 5rem;
-	
-	@media screen and (max-width: 1270px) {
-		margin-bottom: 0px;
-	}
+	width: 77%;
+	position: absolute;
+	top: 135px;
+	left: 240px;
 }
 
 .AllChartsContainer {
@@ -16,10 +14,7 @@
 	justify-content: space-between;
 	width: 100%;
 	height: auto;
-	margin-bottom: 40px;
-	@media screen and (max-width: 1270px) {
-		margin-bottom: 0px;
-	}
+	margin-top: 80px;
 }
 
 .GraphicalsContainer {

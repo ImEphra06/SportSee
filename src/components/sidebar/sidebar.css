@@ -5,7 +5,7 @@
 	background-color: #020203;
 	margin: 0;
 	width: 117px;
-	min-height: 685px;
+	height: 1024px;
 	position: relative;
 	z-index: 10;
 }
@@ -16,6 +16,9 @@
 	justify-content: center;
 	align-items: center;
 	background-color: #020203;
+	position: absolute;
+	top: 270px;
+	left: 20px;
 }
 
 .sidebarIcons img {
@@ -35,7 +38,7 @@
 	transform: rotate(180deg);
 	color: white;
 	position: absolute;
-	bottom: 25px;
+	bottom: 60px;
 	align-self: center;
 }
 
