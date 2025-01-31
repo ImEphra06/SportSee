@@ -7,6 +7,7 @@ import {
 	USER_PERFORMANCE,
 } from "../data/data";
 
+// Data adapter
 /* A constant that is used to determine whether to use data or not. */
 export const DATA = true;
 
