@@ -9,29 +9,12 @@ class User {
 		this.sessions = sessions.sessions;
 	}
 
-	getFirstName = () => {
-		return this.firstName;
-	};
-
-	getActivityData = () => {
-		return this.activities;
-	};
-
-	getSessionsData = () => {
-		return this.sessions;
-	};
-
-	getPerformanceData = () => {
-		return this.performance;
-	};
-
-	getScoreData = () => {
-		return this.score;
-	};
-
-	getNutrientData = () => {
-		return this.nutrients;
-	};
+	getFirstName = () => this.firstName;
+	getActivityData = () => this.activities;
+	getSessionsData = () => this.sessions;
+	getPerformanceData = () => this.performance;
+	getScoreData = () => this.score;
+	getNutrientData = () => this.nutrients;
 }
 
 export default User;
