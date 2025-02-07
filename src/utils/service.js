@@ -2,6 +2,11 @@ import dataAdapters from "./data-adapter.js";
 
 const API_BASE_URL = "http://localhost:3000/user/";
 
+const handleError = () => {
+	// Redirect to your custom error page
+	window.location.href = "/error";
+  };
+
 const fetchData = async (endpoint) => {
 	try {
 		const response = await fetch(API_BASE_URL + endpoint);
@@ -11,7 +16,7 @@ const fetchData = async (endpoint) => {
 		const data = await response.json();
 		return data.data; // Supposant que l'API retourne un objet avec une clé "data"
 	} catch (error) {
-		console.error("Erreur lors de la récupération des données :", error);
+		handleError();
 		throw error;
 	}
 };

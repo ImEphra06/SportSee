@@ -11,16 +11,9 @@ import Score from "../components/score/score";
 import Activity from "../components/activity/activity";
 
 function Board() {
-    //userId is extracted from the url
-    const { userId } = useParams();
+    const { userId } = useParams(); //userId is extracted from the url
 
-    //customized hook is called to retrieve user data
-    const { userData, error } = useFetchData(userId);
-
-    /*//Manage loading and error states
-    (isLoading) {
-        return <div>Chargement en cours...</div>;
-    }*/
+    const { userData, error } = useFetchData(userId); //customized hook is called to retrieve user data
 
     if (error) {
         return <div>Erreur lors de la récupération des données.</div>;

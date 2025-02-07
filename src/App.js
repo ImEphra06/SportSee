@@ -5,6 +5,7 @@ import './App.css';
 import Header from "./components/header/header";
 import SideBar from "./components/sidebar/sidebar";
 import Board from "./page/board";
+import ErrorPage from "./page/error";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           {/* Route dynamique avec :userId */}
           <Route path="/user/:userId" element={<Board />} />
+          <Route path="/*" element={<ErrorPage />} />
         </Routes>
       </div>
     </Router>
